@@ -1,0 +1,29 @@
+h1 {
+    color: rgb(139, 219, 139);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(100, 100, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+span {
+    color: rgb(106, 43, 253);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+strong {
+    color: blueviolet;
+    font-weight: bold;
+}
