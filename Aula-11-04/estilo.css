@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+strong {
+    color: brown;
+}
+
+
+p {
+    background-color: black;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    background-color: greenyellow;
+    color: black;
+}
+
+.sublinhado {
+    text-decoration: underline;
+    color:aliceblue ;
+}
+
+.sombra {
+    text-shadow: 5px 5px 2px greenyellow, -5px -5px 2px orange, -5px 5px 2px red, 5px -5px 2px blueviolet;
+    text-align: center;
+}
+
+.alinhamento {
+    text-align: center;
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+.maiuscula {
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+    font-family: "Pixelify Sans", sans-serif;;
+}
+
+h2 {
+    text-shadow: 5px 5px 2px greenyellow, -5px -5px 2px orange, -5px 5px 2px red, 5px -5px 2px blueviolet;
+    color: aliceblue;
+}
+
+.espacamento {
+    letter-spacing: 3px;
+  
+}
+
+.espacpalavras {
+    word-spacing: 20px;
+
+}
+
+.espaclinhas {
+    line-height: 3;
+}
+
