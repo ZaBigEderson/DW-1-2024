@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores CSS</title>
+    <style>
+
+        /*Selecionar todas as tags h1*/
+        h1 {
+            color:green;
+        }
+
+        /*Transforma todos p*/
+        p {
+            color: gray;
+        }
+
+         /*Seleciona o elemento com o id titulo_principal*/
+        #titulo_principal {
+            color:red;
+            font-style: normal;
+        }
+  
+        /*Seleciona o paragrafo e aplica*/
+        #conteudo_principal {
+            color: rgb(46, 30, 45);
+            text-decoration: underline;
+        }
+
+        /*Selecione todos os elementos com a classe destaque*/
+        .destaque {
+            background-color: rgb(184, 92, 98);
+            color:black;
+        }
+
+        /*Selecione todos os elementos com a classe cor_primaria*/
+        .cor_primaria {
+            color: green;
+        }
+
+        .container {
+            background-color: aquamarine;
+            border: 6px solid
+            black;
+            font-style: italic;
+        }
+        /*Seleciona apenas paragraos com a classe destaque*/
+        p.destaque {
+            font-size: 20px;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="titulo_principal">Hino Espanha</h1>
+        
+        <img src="https://th.bing.com/th?id=OIP.sY0K-G4Tx0PissX8bzlMzAHaKn&w=208&h=299&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="">
+
+        
+        <p class="destaque">¡Viva España!
+            Alzad los brazos
+            Hijos del pueblo español
+            Que vuelve a resurgir
+            </p>
+
+
+
+    </div>
+    
+    <p id="conteudo_principal">Gloria a la Pátria
+        Que supo seguir
+        Sobre el azul del mar
+        El caminar del sol
+    </p>
+
+
+    <p id="conteudo_principal" class="cor_primaria">Gloria a la Pátria
+        Que supo seguir
+        Sobre el azul del mar
+        El caminar del sol
+                </p>
+
+    <p>¡Triunfa, España!
+        Los yunques y las ruedas
+        Cantán al compás
+        Del himno de la fe</p>
+
+    <p class="cor_primaria">¡Triunfa, España!
+        Los yunques y las ruedas
+        Cantán al compás
+        Del himno de la fe</p>
+
+
+</body>
+</html>
