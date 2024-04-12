@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+
+.formula {
+    background-color: rgba(255, 255, 0, 0.404);
+    border: 2px solid;
+    font-size: 2em;
+}
